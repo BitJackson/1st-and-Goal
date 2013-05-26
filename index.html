@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery-csv.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/firstandgoal.js"></script>
+
+      
+
+  </head>
+  <body onload="initialize();">
+    <div class="container">
+      <div id="game" class="row">
+
+        <div class="span3 offset2 awayteam">
+          <div class="teamInfo">
+            <select id="awayTeamSelect" onchange="startGame();"></select>
+            <h2 id="away-team-name">name</h2>
+          </div>
+          <div class="defence">
+            <h4>Defence</h4>
+            <h3 class="black dice" id="away-black">0</h3>
+          </div>
+          <div class="run">
+            <h4>Run Offence</h4>
+            <h3 class="red dice" id="away-red">0</h3>
+            <h3 class="ivory dice" id="away-ivory">0</h3>
+            <h3 class="brown dice" id="away-brown">0</h3>
+          </div>
+          <div class="pass">
+            <h4>Pass Offence</h4>
+            <h3 class="yellow dice" id="away-yellow">0</h3>
+            <h3 class="blue dice" id="away-blue">0</h3>
+            <h3 class="green dice" id="away-green">0</h3>
+          </div>
+        </div>
+        <div class="span2 center">
+          <h1>@</h1>
+          <a class="btn" onclick="rollDice();">Roll Dice</a>
+        </div>
+        <div class="span3 hometeam">
+          <div class="teamInfo">
+            <select id="homeTeamSelect" onchange="startGame();"></select>
+            <h2 id="home-team-name">name</h2>
+          </div>
+          <div class="defence">
+            <h4>Defence</h4>
+            <h3 class="black" id="home-black">0</h3>
+          </div>
+          <div class="run">
+            <h4>Run Offence</h4>
+            <h3 class="red" id="home-red">0</h3>
+            <h3 class="ivory" id="home-ivory">0</h3>
+            <h3 class="brown" id="home-brown">0</h3>
+          </div>
+          <div class="pass">
+            <h4>Pass Offence</h4>
+            <h3 class="yellow" id="home-yellow">0</h3>
+            <h3 class="blue" id="home-blue">0</h3>
+            <h3 class="green" id="home-green">0</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

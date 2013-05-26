@@ -1,0 +1,43 @@
+.blue {
+	background-color: blue;
+}
+.black {
+	background-color: black;
+	color: #fff;
+}
+.red {
+	background-color: red;
+}
+.yellow {
+	background-color: yellow;
+}
+.green {
+	background-color: green;
+}
+.ivory {
+	background-color: white;
+}
+.brown {
+	background-color: brown;
+}
+h3 {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #333;
+}
+body {
+	padding-top: 20px;
+}
+.teamInfo {
+}
+.center {
+	text-align: center;
+	padding-top: 40px;
+}
+.center h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.awayteam .teamInfo, .awayteam h4{
+	text-align: right;
+}
