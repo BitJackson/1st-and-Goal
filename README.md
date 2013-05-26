@@ -7,4 +7,4 @@ Included are the teams from the available expansion packs, but not included are 
 
 While fun, the games can drag out and get repetitive fast, so using this app, on say an Ipad or even a smart phone, lets you get through games much quicker.
 
-A Live demo of this webapp can be viewed here `http://jacksonwillis.com/firstandgoal/`
+A Live demo of this webapp can be viewed here http://jacksonwillis.com/firstandgoal/
